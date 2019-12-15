@@ -1,6 +1,7 @@
 {
     "name": "sheronov/test-composer-package",
     "description": "First composer project for my education",
+    "version": "0.0.1-dev",
     "type": "library",
     "license": "MIT",
     "authors": [
