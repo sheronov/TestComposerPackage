@@ -1,0 +1,21 @@
+{
+    "name": "sheronov/test-composer-package",
+    "description": "First composer project for my education",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeniy Sheronov",
+            "email": "webrush@bk.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebRush\\": "src/WebRush"
+        }
+    }
+}
